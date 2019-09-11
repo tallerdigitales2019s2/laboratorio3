@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ANSWER[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ANSWER[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ANSWER[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BORROW_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT2[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

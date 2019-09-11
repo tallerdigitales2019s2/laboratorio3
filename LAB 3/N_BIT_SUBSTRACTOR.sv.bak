@@ -1,0 +1,61 @@
+//module for adder of n bits
+module N_BIT_SUBSTRACTOR #(parameter N = 3)
+	(input logic [N-1:0] INPUT1, //input of the adder
+	 input logic [N-1:0] INPUT2,	//input of the adder  
+	 output logic [N-1:0] ANSWER,	//output of the adder	
+	 output logic BORROW_OUT);	//BORROW out of the adder
+
+	 genvar I;
+	 generate 
+	 logic [N-1:0] BORROW_IN; //BORROW in of the adder
+		for (I = 0; I < N; I = I + 1)
+			begin: GENERATE_N_BIT_ADDER
+				if (I == 0)
+					HALF_SUBSTRACTOR (INPUT1[0], INPUT2[0], ANSWER[0], BORROW_IN[0]);
+				else 
+					FULL_SUBSTRACTOR (INPUT1[I], INPUT2[I], BORROW_IN[I-1], ANSWER[I], BORROW_IN[I]);
+				end
+	assign BORROW_OUT = BORROW_IN[N-1];
+	endgenerate			
+endmodule
+
+//module for half adder
+module HALF_SUBSTRACTOR 
+	(input logic INPUT1,	//input of the half adder
+	 input logic INPUT2,	//input of the half adder
+	 output logic ANSWER, //output of the half adder
+	 output logic BORROW);	//BORROW of the half adder
+	 
+	 or orAnswer (ANSWER, INPUT1, INPUT2);
+	 and andAnswer (BORROW, INPUT1, INPUT2);
+	 
+	 //assign ANSWER1 = orAnswer;
+	 //assign BORROW1 = andAnswer;
+endmodule
+
+//module for full adder
+module FULL_SUBSTRACTOR 
+	(input logic INPUT1,	//input of the full adder
+	 input logic INPUT2,	//input of the full adder
+	 input logic BORROW_IN,	//BORROW in of the full adder
+	 output logic ANSWER,	//output of the full adder
+	 output logic BORROW_OUT);	//BORROW out of the full adder
+	 
+	 logic temporal1;
+	 xor xorAnswer1 (temporal1, INPUT1, INPUT2);
+	 xor xorAnswer2(ANSWER, test, BORROW_IN); 
+	 
+	 logic temporal2;
+	 and and1 (temporal2, INPUT2, BORROW_IN);
+	 
+	 logic temporal3;
+	 and and2 (temporal3, INPUT1, INPUT2);
+	 
+	 logic temporal4;
+	 and and3 (temporal4, INPUT1, BORROW_IN);
+	 
+	 logic temporal5;
+	 and or1(temporal5, temporal2, temporal3);
+	 
+	 and or2(BORROW_OUT, temporal5, temporal4);
+endmodule
