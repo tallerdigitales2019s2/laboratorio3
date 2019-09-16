@@ -1,19 +1,28 @@
 //module for adder of n bits
 module N_BIT_ADDER #(parameter N = 3)
 	(input logic [N-1:0] INPUT1, //input of the adder
-	 input logic [N-1:0] INPUT2,	//input of the adder  
+	 input logic [N-1:0] INPUT2,	//input of the adder 
+	 input  logic SEL,
 	 output logic [N-1:0] ANSWER,	//output of the adder	
 	 output logic CARRY_OUT);	//carry out of the adder
-
+	 logic [N-1:0] INPUT2_A2,INPUT2_TEMP;
+	 
+	 
+	 
+	 A2_complement #( .WIDTH(N))  a2_c (.data_i(INPUT2), .data_o(INPUT2_A2));
+	 
+	 
+	 assign  INPUT2_TEMP = (SEL) ? (INPUT2_A2) : (INPUT2);
+	 
 	 genvar I;
 	 generate 
 	 logic [N-1:0] CARRY_IN; //carry in of the adder
 		for (I = 0; I < N; I = I + 1)
 			begin: GENERATE_N_BIT_ADDER
 				if (I == 0)
-					HALF_ADDER (INPUT1[0], INPUT2[0], ANSWER[0], CARRY_IN[0]);
+					HALF_ADDER (INPUT1[0], INPUT2_TEMP[0], ANSWER[0], CARRY_IN[0]);
 				else 
-					FULL_ADDER (INPUT1[I], INPUT2[I], CARRY_IN[I-1], ANSWER[I], CARRY_IN[I]);
+					FULL_ADDER (INPUT1[I], INPUT2_TEMP[I], CARRY_IN[I-1], ANSWER[I], CARRY_IN[I]);
 				end
 	assign CARRY_OUT = CARRY_IN[N-1];
 	endgenerate			
