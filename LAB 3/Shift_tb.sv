@@ -1,4 +1,4 @@
-module Shift_en_tb();
+module Shift_tb();
 parameter WIDTH=8;
 logic [1:0] sel_i;
 logic [WIDTH-1:0] A_i, shamt_i;
@@ -6,7 +6,7 @@ logic [WIDTH-1:0] data_o, shamt_o;
 
 
 
-Shift_en #(.WIDTH(WIDTH)) DUT(.*);
+Shift #(.WIDTH(WIDTH)) DUT(.*);
 
 
 

@@ -1,7 +1,7 @@
 //Dout = EN'*A + EN*DIR'*Carry >    + EN*DIR*< Carry
 
 
-module ShiftBit_en(en_i , dir_i, carry_left_i,data_i,carry_right_i,data_o,carry_o);
+module ShiftBit(en_i , dir_i, carry_left_i,data_i,carry_right_i,data_o,carry_o);
 
 input logic carry_left_i;
 input logic carry_right_i;

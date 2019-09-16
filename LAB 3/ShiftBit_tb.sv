@@ -1,4 +1,4 @@
-module ShiftBit_en_tb();
+module ShiftBit_tb();
 	logic carry_left_i;
 	logic carry_right_i;
 	logic dir_i;
@@ -8,7 +8,7 @@ module ShiftBit_en_tb();
 	logic carry_o;
 	logic data_o;
 	
-	ShiftBit_en DUT(.*);
+	ShiftBit DUT(.*);
 	
 	
 	
