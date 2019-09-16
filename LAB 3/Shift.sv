@@ -1,3 +1,8 @@
+// SEL:
+// 00 sll
+// 01 sla
+// 10 srl
+// 11 sra
 module Shift #(parameter WIDTH=8) (sel_i,  A_i,  shamt_i, data_o, shamt_o);
 input logic [1:0] sel_i;
 input logic [WIDTH-1:0] A_i, shamt_i;
