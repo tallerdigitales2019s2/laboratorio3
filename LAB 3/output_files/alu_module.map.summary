@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Mon Sep 16 22:47:56 2019
+Analysis & Elaboration Status : Successful - Mon Sep 16 22:58:36 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : alu_module
-Top-level Entity Name : alu_module_tb
+Top-level Entity Name : alu_module
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

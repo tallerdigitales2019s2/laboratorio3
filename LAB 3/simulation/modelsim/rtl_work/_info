@@ -1,0 +1,243 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gsegura/Documents/taller/laboratorio3/LAB 3/simulation/modelsim
+vA2_complement
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1568696320
+!i10b 1
+!s100 a=hnkVN;XSVgKeYJ1GbfW2
+I=]0zZWUacYHa4EL7GRcSZ0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 A2_complement_sv_unit
+S1
+R0
+Z4 w1568695960
+8/home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement.sv
+F/home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1568696320.000000
+!s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3}
+Z9 tCvgOpt 0
+n@a2_complement
+vA2_complement_aux
+R1
+R2
+!i10b 1
+!s100 _e>:1NJ3L<iI_YH4HQ?Z>3
+IdWG]H_Od1ccO?gU4K`U8P1
+R3
+!s105 A2_complement_aux_sv_unit
+S1
+R0
+R4
+8/home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement_aux.sv
+F/home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement_aux.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement_aux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/A2_complement_aux.sv|
+!i113 1
+R7
+R8
+R9
+n@a2_complement_aux
+valu_module
+R1
+R2
+!i10b 1
+!s100 _U0:@Qi8dCOVHm7J6d[@Y2
+IzUhG3XXl0D4`WZlOW;^Z03
+R3
+!s105 alu_module_sv_unit
+S1
+R0
+R4
+8/home/gsegura/Documents/taller/laboratorio3/LAB 3/alu_module.sv
+F/home/gsegura/Documents/taller/laboratorio3/LAB 3/alu_module.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/alu_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/alu_module.sv|
+!i113 1
+R7
+R8
+R9
+vFULL_ADDER
+R1
+R2
+!i10b 1
+!s100 gTdRz=EEDRXhLzBTe=KZ12
+IKS1MW`_hDkQh[YKdB=9ga1
+R3
+Z10 !s105 N_BIT_ADDER_sv_unit
+S1
+R0
+R4
+Z11 8/home/gsegura/Documents/taller/laboratorio3/LAB 3/N_BIT_ADDER.sv
+Z12 F/home/gsegura/Documents/taller/laboratorio3/LAB 3/N_BIT_ADDER.sv
+L0 42
+R5
+r1
+!s85 0
+31
+R6
+Z13 !s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/N_BIT_ADDER.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/N_BIT_ADDER.sv|
+!i113 1
+R7
+R8
+R9
+n@f@u@l@l_@a@d@d@e@r
+vHALF_ADDER
+R1
+R2
+!i10b 1
+!s100 hO0<W^hnFRzC_UUC9jZcz0
+I7B=Cckmo8h>0lYGjjYHKP0
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 28
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+n@h@a@l@f_@a@d@d@e@r
+vN_BIT_ADDER
+R1
+R2
+!i10b 1
+!s100 jM?a9O;5ONWReezafXDCk0
+Iaf>8l[OY0?gz1HPgWl:7E2
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+n@n_@b@i@t_@a@d@d@e@r
+vShift
+R1
+R2
+!i10b 1
+!s100 l>Q_4Jfo9f9zNZL=7[VJ42
+IAS52=CEK;kA<jO@@8:GJX3
+R3
+!s105 Shift_sv_unit
+S1
+R0
+w1568665621
+8/home/gsegura/Documents/taller/laboratorio3/LAB 3/Shift.sv
+F/home/gsegura/Documents/taller/laboratorio3/LAB 3/Shift.sv
+L0 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/Shift.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/Shift.sv|
+!i113 1
+R7
+R8
+R9
+n@shift
+vShiftBit
+R1
+R2
+!i10b 1
+!s100 mT8E0L0OU<dQbY[z7JFzA1
+IU_mT2fVKZj0`TE9zJbdfh2
+R3
+!s105 ShiftBit_sv_unit
+S1
+R0
+w1568665291
+8/home/gsegura/Documents/taller/laboratorio3/LAB 3/ShiftBit.sv
+F/home/gsegura/Documents/taller/laboratorio3/LAB 3/ShiftBit.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/ShiftBit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/ShiftBit.sv|
+!i113 1
+R7
+R8
+R9
+n@shift@bit
+vShifter
+R1
+R2
+!i10b 1
+!s100 z8zQ7_Ei:L>T`aO<:Kcb?2
+IZzUUn=fW[5[zl7kM[WDKl1
+R3
+!s105 Shifter_sv_unit
+S1
+R0
+w1568665556
+8/home/gsegura/Documents/taller/laboratorio3/LAB 3/Shifter.sv
+F/home/gsegura/Documents/taller/laboratorio3/LAB 3/Shifter.sv
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/gsegura/Documents/taller/laboratorio3/LAB 3/Shifter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/taller/laboratorio3/LAB 3|/home/gsegura/Documents/taller/laboratorio3/LAB 3/Shifter.sv|
+!i113 1
+R7
+R8
+R9
+n@shifter

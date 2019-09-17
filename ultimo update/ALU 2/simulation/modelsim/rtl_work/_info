@@ -1,0 +1,268 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/ALU/simulation/modelsim
+vA2_complement
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1568695684
+!i10b 1
+!s100 a=hnkVN;XSVgKeYJ1GbfW2
+I@<08[Lo_?K2l64LbVKG0N2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 A2_complement_sv_unit
+S1
+R0
+w1568695653
+8C:/intelFPGA_lite/18.1/ALU/A2_complement.sv
+FC:/intelFPGA_lite/18.1/ALU/A2_complement.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1568695684.000000
+!s107 C:/intelFPGA_lite/18.1/ALU/A2_complement.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/A2_complement.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU
+Z8 tCvgOpt 0
+n@a2_complement
+vA2_complement_aux
+R1
+R2
+!i10b 1
+!s100 _e>:1NJ3L<iI_YH4HQ?Z>3
+IHcnFM=Pe_KiUmbCB5de421
+R3
+!s105 A2_complement_aux_sv_unit
+S1
+R0
+w1568677203
+8C:/intelFPGA_lite/18.1/ALU/A2_complement_aux.sv
+FC:/intelFPGA_lite/18.1/ALU/A2_complement_aux.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/ALU/A2_complement_aux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/A2_complement_aux.sv|
+!i113 1
+R6
+R7
+R8
+n@a2_complement_aux
+valu_module
+R1
+R2
+!i10b 1
+!s100 _U0:@Qi8dCOVHm7J6d[@Y2
+Iei[^8;liGAOOC3T:Hf79N2
+R3
+!s105 alu_module_sv_unit
+S1
+R0
+w1568695299
+8C:/intelFPGA_lite/18.1/ALU/alu_module.sv
+FC:/intelFPGA_lite/18.1/ALU/alu_module.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/ALU/alu_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/alu_module.sv|
+!i113 1
+R6
+R7
+R8
+valu_module_tb
+R1
+R2
+!i10b 1
+!s100 A1N8f0PT5mC3oQ3XMkHdX2
+I6E@6zWHE]ES9fJZ3bXfPJ2
+R3
+!s105 alu_module_tb_sv_unit
+S1
+R0
+w1568683859
+8C:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv
+FC:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv|
+!i113 1
+R6
+R7
+R8
+vFULL_ADDER
+R1
+R2
+!i10b 1
+!s100 gTdRz=EEDRXhLzBTe=KZ12
+IR9mLobACbda1;?M1i1VdK1
+R3
+Z9 !s105 N_BIT_ADDER_sv_unit
+S1
+R0
+Z10 w1568687417
+Z11 8C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv
+Z12 FC:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv
+L0 42
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv|
+!i113 1
+R6
+R7
+R8
+n@f@u@l@l_@a@d@d@e@r
+vHALF_ADDER
+R1
+R2
+!i10b 1
+!s100 hO0<W^hnFRzC_UUC9jZcz0
+ISm=US8zO=OgfT:EbF<^FN3
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 28
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+n@h@a@l@f_@a@d@d@e@r
+vN_BIT_ADDER
+R1
+R2
+!i10b 1
+!s100 jM?a9O;5ONWReezafXDCk0
+I9m_nhkHDz4i>G79go13Y51
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+n@n_@b@i@t_@a@d@d@e@r
+vShift
+R1
+R2
+!i10b 1
+!s100 l>Q_4Jfo9f9zNZL=7[VJ42
+I?CG<dSo6a1F?Ed6IF>:?S3
+R3
+!s105 Shift_sv_unit
+S1
+R0
+Z15 w1568665633
+8C:/intelFPGA_lite/18.1/ALU/Shift.sv
+FC:/intelFPGA_lite/18.1/ALU/Shift.sv
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/ALU/Shift.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/Shift.sv|
+!i113 1
+R6
+R7
+R8
+n@shift
+vShiftBit
+R1
+Z16 !s110 1568695683
+!i10b 1
+!s100 mT8E0L0OU<dQbY[z7JFzA1
+InjEb4]eTU0<FHmZlS9JMh2
+R3
+!s105 ShiftBit_sv_unit
+S1
+R0
+R15
+8C:/intelFPGA_lite/18.1/ALU/ShiftBit.sv
+FC:/intelFPGA_lite/18.1/ALU/ShiftBit.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z17 !s108 1568695683.000000
+!s107 C:/intelFPGA_lite/18.1/ALU/ShiftBit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/ShiftBit.sv|
+!i113 1
+R6
+R7
+R8
+n@shift@bit
+vShifter
+R1
+R16
+!i10b 1
+!s100 z8zQ7_Ei:L>T`aO<:Kcb?2
+Ia;<AEU?6EC^QDc3@@7:Wa3
+R3
+!s105 Shifter_sv_unit
+S1
+R0
+R15
+8C:/intelFPGA_lite/18.1/ALU/Shifter.sv
+FC:/intelFPGA_lite/18.1/ALU/Shifter.sv
+L0 7
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/intelFPGA_lite/18.1/ALU/Shifter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.1/ALU|C:/intelFPGA_lite/18.1/ALU/Shifter.sv|
+!i113 1
+R6
+R7
+R8
+n@shifter

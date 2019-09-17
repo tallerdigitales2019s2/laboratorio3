@@ -1,0 +1,126 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do alu_module_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/Shifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:03 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/Shifter.sv 
+# -- Compiling module Shifter
+# 
+# Top level modules:
+# 	Shifter
+# End time: 22:48:03 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/ShiftBit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:03 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/ShiftBit.sv 
+# -- Compiling module ShiftBit
+# 
+# Top level modules:
+# 	ShiftBit
+# End time: 22:48:03 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/Shift.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:04 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/Shift.sv 
+# -- Compiling module Shift
+# 
+# Top level modules:
+# 	Shift
+# End time: 22:48:04 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:04 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv 
+# -- Compiling module alu_module_tb
+# 
+# Top level modules:
+# 	alu_module_tb
+# End time: 22:48:04 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:04 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv 
+# -- Compiling module N_BIT_ADDER
+# -- Compiling module HALF_ADDER
+# -- Compiling module FULL_ADDER
+# 
+# Top level modules:
+# 	N_BIT_ADDER
+# End time: 22:48:04 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/alu_module.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:04 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/alu_module.sv 
+# -- Compiling module alu_module
+# 
+# Top level modules:
+# 	alu_module
+# End time: 22:48:04 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/A2_complement.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:04 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/A2_complement.sv 
+# -- Compiling module A2_complement
+# 
+# Top level modules:
+# 	A2_complement
+# End time: 22:48:04 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.1/ALU {C:/intelFPGA_lite/18.1/ALU/A2_complement_aux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:04 on Sep 16,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.1/ALU" C:/intelFPGA_lite/18.1/ALU/A2_complement_aux.sv 
+# -- Compiling module A2_complement_aux
+# 
+# Top level modules:
+# 	A2_complement_aux
+# End time: 22:48:04 on Sep 16,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.alu_module_tb
+# vsim work.alu_module_tb 
+# Start time: 22:48:10 on Sep 16,2019
+# Loading sv_std.std
+# Loading work.alu_module_tb
+# Loading work.alu_module
+# Loading work.Shifter
+# Loading work.Shift
+# Loading work.ShiftBit
+# Loading work.N_BIT_ADDER
+# Loading work.A2_complement
+# Loading work.A2_complement_aux
+# Loading work.HALF_ADDER
+# Loading work.FULL_ADDER
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/ALU/alu_module_tb.sv(14): [PCDPC] - Port size (3) does not match connection size (1) for port 'Carry_in'. The port definition is at: C:/intelFPGA_lite/18.1/ALU/alu_module.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_module_tb/DUT File: C:/intelFPGA_lite/18.1/ALU/alu_module.sv
+# ** Warning: (vsim-3017) C:/intelFPGA_lite/18.1/ALU/Shifter.sv(22): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_module_tb/DUT/sll/sb_N File: C:/intelFPGA_lite/18.1/ALU/Shift.sv
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/18.1/ALU/Shifter.sv(22): [TFMPC] - Missing connection for port 'shamt_o'.
+# ** Warning: (vsim-3017) C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv(10): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_module_tb/DUT/adder/a2_c File: C:/intelFPGA_lite/18.1/ALU/A2_complement.sv
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/18.1/ALU/N_BIT_ADDER.sv(10): [TFMPC] - Missing connection for port 'carry_o'.
+add wave -position insertpoint sim:/alu_module_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: bryan  Hostname: DESKTOP-U20LTB1  ProcessID: 5560
+#           Attempting to use alternate WLF file "./wlfts886js".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts886js
+run
+# End time: 22:49:25 on Sep 16,2019, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 7

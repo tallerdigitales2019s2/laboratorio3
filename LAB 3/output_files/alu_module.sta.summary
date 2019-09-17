@@ -2,100 +2,52 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Setup 'sel[2]'
-Slack : -4.453
-TNS   : -17.131
+Type  : Slow 1100mV 85C Model Setup 'Op_Code[2]'
+Slack : -3.254
+TNS   : -9.602
 
-Type  : Slow 1100mV 85C Model Setup 'sel[1]'
-Slack : -4.065
-TNS   : -11.565
-
-Type  : Slow 1100mV 85C Model Hold 'sel[1]'
-Slack : 1.008
+Type  : Slow 1100mV 85C Model Hold 'Op_Code[2]'
+Slack : 1.193
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Hold 'sel[2]'
-Slack : 1.261
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Op_Code[2]'
+Slack : 0.387
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sel[1]'
-Slack : -0.007
-TNS   : -0.008
+Type  : Slow 1100mV 0C Model Setup 'Op_Code[2]'
+Slack : -3.170
+TNS   : -9.403
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sel[2]'
-Slack : 0.026
+Type  : Slow 1100mV 0C Model Hold 'Op_Code[2]'
+Slack : 1.027
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Setup 'sel[2]'
-Slack : -4.469
-TNS   : -16.962
-
-Type  : Slow 1100mV 0C Model Setup 'sel[1]'
-Slack : -4.123
-TNS   : -11.605
-
-Type  : Slow 1100mV 0C Model Hold 'sel[1]'
-Slack : 1.019
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Op_Code[2]'
+Slack : 0.369
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'sel[2]'
-Slack : 1.243
+Type  : Fast 1100mV 85C Model Setup 'Op_Code[2]'
+Slack : -2.137
+TNS   : -6.251
+
+Type  : Fast 1100mV 85C Model Hold 'Op_Code[2]'
+Slack : 0.704
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sel[1]'
-Slack : -0.056
-TNS   : -0.350
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sel[2]'
-Slack : 0.013
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Op_Code[2]'
+Slack : 0.095
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Setup 'sel[2]'
-Slack : -3.277
-TNS   : -11.539
+Type  : Fast 1100mV 0C Model Setup 'Op_Code[2]'
+Slack : -1.955
+TNS   : -5.716
 
-Type  : Fast 1100mV 85C Model Setup 'sel[1]'
-Slack : -2.619
-TNS   : -7.536
-
-Type  : Fast 1100mV 85C Model Hold 'sel[1]'
-Slack : 0.481
+Type  : Fast 1100mV 0C Model Hold 'Op_Code[2]'
+Slack : 0.592
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Hold 'sel[2]'
-Slack : 0.619
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Op_Code[2]'
+Slack : 0.079
 TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sel[1]'
-Slack : -0.352
-TNS   : -4.242
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sel[2]'
-Slack : -0.264
-TNS   : -4.235
-
-Type  : Fast 1100mV 0C Model Setup 'sel[2]'
-Slack : -2.988
-TNS   : -10.784
-
-Type  : Fast 1100mV 0C Model Setup 'sel[1]'
-Slack : -2.418
-TNS   : -7.115
-
-Type  : Fast 1100mV 0C Model Hold 'sel[1]'
-Slack : 0.401
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'sel[2]'
-Slack : 0.564
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sel[1]'
-Slack : -0.382
-TNS   : -4.693
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sel[2]'
-Slack : -0.308
-TNS   : -5.173
 
 ------------------------------------------------------------
