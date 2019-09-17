@@ -1,0 +1,8 @@
+module alu_module #(parameter N = 3)
+						(input [N-1:0] A,
+						input [N-1:0] B,
+						input sys_clk,
+						output [N-1:0] Out
+						);
+	
+endmodule 

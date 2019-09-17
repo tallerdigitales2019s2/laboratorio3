@@ -11,9 +11,9 @@ module N_BIT_SUBSTRACTOR #(parameter N = 3)
 		for (I = 0; I < N; I = I + 1)
 			begin: GENERATE_N_BIT_SUBSTRACTOR
 				if (I == 0)
-					HALF_SUBSTRACTOR (INPUT1[0], INPUT2[0], ANSWER[0], BORROW_IN[0]);
+					HALF_SUBSTRACTOR half_sub1 (INPUT1[0], INPUT2[0], ANSWER[0], BORROW_IN[0]);
 				else 
-					FULL_SUBSTRACTOR (INPUT1[I], INPUT2[I], BORROW_IN[I-1], ANSWER[I], BORROW_IN[I]);
+					FULL_SUBSTRACTOR full_sub1(INPUT1[I], INPUT2[I], BORROW_IN[I-1], ANSWER[I], BORROW_IN[I]);
 				end
 	assign BORROW_OUT = BORROW_IN[N-1];
 	endgenerate			
@@ -62,4 +62,4 @@ module FULL_SUBSTRACTOR
 	 
 	 
 	 or or2(BORROW_OUT, temporal2, temporal3);
-endmodule
+endmodule 

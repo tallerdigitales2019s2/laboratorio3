@@ -1,0 +1,6 @@
+module displaySum (input logic [3:0]A, input logic[3:0]B, input logic cIn, output logic [6:0] segments, output logic cout);
+	logic [3:0] sumResult;
+
+	adderTest test(cIn, A,B, sumResult, cout);
+	seven_segments testSegments(sumResult, segments);
+endmodule 

@@ -26,7 +26,7 @@ module HALF_ADDER
 	 output logic ANSWER, //output of the half adder
 	 output logic CARRY);	//carry of the half adder
 	 
-	 or orAnswer (ANSWER, INPUT1, INPUT2);
+	 xor xorAnswer (ANSWER, INPUT1, INPUT2);
 	 and andAnswer (CARRY, INPUT1, INPUT2);
 	 
 	 //assign ANSWER1 = orAnswer;
@@ -43,19 +43,14 @@ module FULL_ADDER
 	 
 	 logic temporal1;
 	 xor xorAnswer1 (temporal1, INPUT1, INPUT2);
-	 xor xorAnswer2(ANSWER, test, CARRY_IN); 
+	 xor xorAnswer2(ANSWER, temporal1, CARRY_IN); 
 	 
 	 logic temporal2;
-	 and and1 (temporal2, INPUT2, CARRY_IN);
+	 and and1 (temporal2, temporal1, CARRY_IN);
 	 
 	 logic temporal3;
 	 and and2 (temporal3, INPUT1, INPUT2);
 	 
-	 logic temporal4;
-	 and and3 (temporal4, INPUT1, CARRY_IN);
 	 
-	 logic temporal5;
-	 and or1(temporal5, temporal2, temporal3);
-	 
-	 and or2(CARRY_OUT, temporal5, temporal4);
+	 or or2(CARRY_OUT, temporal2, temporal3);
 endmodule

@@ -7,11 +7,7 @@ module N_BIT_ADDER #(parameter N = 3)
 	 output logic CARRY_OUT);	//carry out of the adder
 	 logic [N-1:0] INPUT2_A2,INPUT2_TEMP;
 	 
-	 
-	 
 	 A2_complement #( .WIDTH(N))  a2_c (.data_i(INPUT2), .data_o(INPUT2_A2));
-	 
-	 
 	 assign  INPUT2_TEMP = (SEL) ? (INPUT2_A2) : (INPUT2);
 	 
 	 genvar I;
@@ -20,9 +16,9 @@ module N_BIT_ADDER #(parameter N = 3)
 		for (I = 0; I < N; I = I + 1)
 			begin: GENERATE_N_BIT_ADDER
 				if (I == 0)
-					HALF_ADDER (INPUT1[0], INPUT2_TEMP[0], ANSWER[0], CARRY_IN[0]);
+					HALF_ADDER half_adder1 (INPUT1[0], INPUT2_TEMP[0], ANSWER[0], CARRY_IN[0]);
 				else 
-					FULL_ADDER (INPUT1[I], INPUT2_TEMP[I], CARRY_IN[I-1], ANSWER[I], CARRY_IN[I]);
+					FULL_ADDER full_adder1 (INPUT1[I], INPUT2_TEMP[I], CARRY_IN[I-1], ANSWER[I], CARRY_IN[I]);
 				end
 	assign CARRY_OUT = CARRY_IN[N-1];
 	endgenerate			
@@ -62,4 +58,4 @@ module FULL_ADDER
 	 
 	 
 	 or or2(CARRY_OUT, temporal2, temporal3);
-endmodule
+endmodule 
